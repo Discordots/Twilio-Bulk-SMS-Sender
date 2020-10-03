@@ -1,5 +1,6 @@
 import csv, sys
 from twilio.rest import Client
+import raw_input
 
 MESSAGE_FILE = 'message.txt'     # File containing text message
 CSV_FILE = 'participants.csv'    # File containing participant numbers
